@@ -1,0 +1,17 @@
+<DOCXTYPE html!>
+<html>
+             <head>
+                      <style>
+                                 h1{color:red;font-size:16px;}
+                                  p{
+                                      color:blue;
+                                       text-align:center;
+                                      }
+                        </style>
+                </head>
+                   <body>
+                             <h1>My Header</h1>
+                             <p>There is a strong demand for front-end develepors in the Bay area.</p>
+                              <p>The paragraphs in this example are styled with the help of CCS.</p>
+                </body>
+          </html>
