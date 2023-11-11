@@ -1,0 +1,11 @@
+h1:hover {
+  color: hotpink;
+ text-align: center;
+}
+*{
+ background-color: rgb(192,192,192);
+
+}
+textarea{
+background-color:white;
+}
