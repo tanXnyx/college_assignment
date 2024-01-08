@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){ 
+window.onbeforeunload = function(){
+return "Submit before closing"
+};
+});
+</script>
+
+</head>
+<body>
+<div class="container">
+<form action="/action_page.php">
+<div class="form-group">
+<h1>Register</h1>
+<label for="nm">Name</label>
+<input type="text"placeholder="Enter Name" name="nm" id="nm" required>
+<label for="gen">Gender</label><br>
+<input type="radio" name="gen" id="gen" required>Male
+<input type="radio" name="gen" id="gen" required>Female
+<br>
+<label for="add">Address</label>
+<input type="text" placeholder="Enter Address" name="add" id="add" required>
+<label for="email">Email</label>
+<input type="email" placeholder="Enter Email" name="email" id="email" required>
+<label for="psw">Password</label>
+<input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+<input type="submit" value="Submit">
+<div class="alert alert-danger alert-dismissible fade show">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+! ! ! Submit before closing the window ! ! !
+</div>
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>
