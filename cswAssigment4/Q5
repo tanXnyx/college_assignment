@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+</script>
+<style>
+.appleimg {
+width: 50px;
+height: 20px;
+padding: 5%;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid" >
+<div class="appleimg">
+<img
+src="data:image/jpeg;base64,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"
+width="250px">
+</div>
+</div>
+<table class="container" >
+<tr>
+<th colspan="2">
+<h3 style="text-align: left;"><b>Stock Price</b></h3>
+<h5 style="text-align: left;">December 2, 2022 4:00 p.m. 
+ET</h5><br><br>
+<p style="text-align: left;">ABOUT THE COMPANY
+Apple Inc. (Apple) designs, manufactures and markets smartphones, 
+personal computers, 
+tablets, wearables and accessories and sells a range of related 
+services. The Company’s
+products include iPhone, Mac, iPad, AirPods, Apple TV, Apple 
+Watch, Beats products, HomePod,
+iPod touch and accessories. </p><br>
+</th>
+<th colspan="2">
+
+<h1 style="text-align: right;"><b>$197.82</b></h1>
+
+
+</th>
+</tr>
+</table>
+</body>
+</html>
