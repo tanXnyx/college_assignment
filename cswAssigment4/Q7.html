@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>Jumbotron, Pagination & Nav-Bar</title>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+.n {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+.active{
+background-color: rgb(138, 198, 250);
+color:brown
+}
+.n li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+padding: 15px 35px 15px 35px;
+}
+li a:hover {
+background-color: rgb(31, 170, 112);
+color:rgb(255, 251, 0);
+}
+.pagination{
+display: flex;
+justify-content: center;
+padding-bottom: 25px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<ul class="n">
+<li><a href="#html">HTML</a></li>
+<li><a href="#scss">CSS</a></li>
+<li><a href="#javascript">JAVASCRIPT</a></li>
+<li><a href="#python">PYTHON</a></li>
+<li><a href="#php">PHP</a></li>
+<li><a href="#sql">SQL</a></li>
+<li><a href="#bootstrap" class="active" >BOOTSTRAP</a></li>
+<li><a href="#java">JAVA</a></li>
+<li><a href="#jquery">JQUERY</a></li>
+</ul>
+<br>
+<h1>Bootstrap 4 Jumbotron</h1><br>
+<h3>Bootstrap 4 Jumbotron</h3><br>
+<p>A jumbotron indicates a big grey box for calling extra attention to some 
+special content or information.</p><br>
+<p><b>Tip:</b> Inside a jumbotron you can put nearly any valid HTML, including 
+other Bootstrap elements/classes.</p><br>
+<div class="jumbotron ">
+<h1>Bootstrap Tutorial</h1>
+<p>Bootstrap is the most popular HTML, CSS, ans JS framework for developing 
+responsive,
+mobile-first projects on the web.
+</p>
+</div>
+<ul class=pagination pagination-md>
+<li class=page-item><a class=page-link href=#>Last</a></li>
+<li class=page-item><a class=page-link href=#>1</a></li>
+<li class=page-item active><a class=page-link href="#">2</a></li>
+<li class=page-item><a class=page-link href=#>3</a></li>
+<li class=page-item><a class=page-link href=#>4</a></li>
+<li class=page-item><a class=page-link href=#>5</a></li>
+<li class=page-item><a class=page-link href=#>Next</a></li>
+</ul>
+</div>
+</body>
+</html>
