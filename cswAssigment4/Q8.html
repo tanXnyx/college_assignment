@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Bootstrap</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<style>
+.team-boxed {
+color:#313437;
+background-color:#eef4f7;
+}
+@media (max-width:767px) {
+.team-boxed h2 {
+margin-bottom:25px;
+padding-top:25px;
+font-size:24px;
+}
+}
+.mainContainer{
+padding-top: 76px;
+}
+button {
+background-color: #030804;
+color: white;
+padding: 14px 20px;
+border-radius: 5px;
+margin: 7px 0;
+width: 100%;
+font-size: 18px;
+}
+.team-boxed .people {
+padding:50px 0;
+}
+.team-boxed .item {
+text-align:center;
+}
+.team-boxed .item .box {
+text-align:center;
+padding:30px;
+background-color:#fff;
+margin-bottom:30px;
+}
+.team-boxed .item .name {
+font-weight:bold;
+margin-top:28px;
+margin-bottom:8px;
+color:inherit;
+}
+.team-boxed .item .title {
+text-transform:uppercase;
+font-weight:bold;
+color:#d0d0d0;
+letter-spacing:2px;
+font-size:13px;
+}
+.team-boxed .item .description {
+font-size:15px;
+margin-top:15px;
+margin-bottom:20px;
+}
+.team-boxed .item img {
+max-width:120px;
+}
+</style>
+</head>
+<body>
+<div class="team-boxed">
+<div class="container">
+<div class="row people">
+<div class="col-md-6 col-lg-4 item">
+<div class="box"><img class="rounded-circle"
+src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACUCAMAAAAAoYNxAAAAM1BMVEXk5ueutLepsLPP09Xn6erg4uOxt7rq7O3Y29zHy824vcDKztC1ur3b3t+/w8bV2Nmkqq4UqHrHAAAEMElEQVR4nO2c25KkIAxAEYMCKvj/X7vYl9neaW2BYELXcp5m3k6lIgRIWohGo9FoNBqNRqPRaDT+B2AcQWkfWET4k1vnFFDeDPKHzhrNrfQJgKV3XfB8JfzregVVBhvGxQ2/fJ/Ws1lGbr93QIUA7/g+rDsnKpMGYY5979LrJGrKDvDzifEmbX09zmBOfe+YWpIDIkL8CLTjdr2jhkjhW3KoCpJjmeONK3FOiPHNeeYWFmnCG5bZ2KYr836DcLaB7Dv3jOmsc4yDs+JTzhLe4Arz6PKCHJh4nEFnB7kbNIszuHxlaViM+3zjwMLhnJ/JW5gdQ2YsqCB3K73xmLWLvISZvnYGnHFYNKgzAzI3vheoj1UjYoV7QJ4ZiWXyDpa20sDsfE8G2qsvmPDKkjaZAbWPPJQnSuOw9RWIMu3pZMk4QL1BewhMuwk4YKBcMkDj17gAqbIvYUx6BASPXzCCMmXN3JSb8oFyAWPiz+8LF7mlhDLpVvKNG3bOJe1viMuiLyw+o5/NPikTl/gFVjnig9QXHleLXAoQ32MU2LLJX7TxF1zEwqhXhxvS0T/BL0hlcmGBvBdguRLHPTxInsYuRJ3B9CiMWeeYHtEQi4ak3kb+kh1lLmEh+sxnd6a0uJHX3MD0gn1HZVwnMrdxgUoPM+0pdQeVrMwsHEi70pDDwt90lvQ4JecKjDc+dAH/gvrwdEh0MwlDjXxIP0Q0A8+czWZvgLLrifFqKuj2/AfQn1uCbSXf3SswerufHlIOzlc68yD0ZN9mHqS0k65TeCOIbaMl63oTl3JdB9cvoqq5gT1gmzfq+6nvtYIvGDjaZng2xo3bX9w+n9jGuYRatA8RnkxgmkKkvV4U1DjdFaSUN3YehvciaRhm6yYtqtEOHkpPt0/u49YXPkVrvFKCOVVCInhzMMy1691ZE1YQNmkY1eTm+Cruod3N1vCs0yB6TBsJdcEBYeF1sdlwEOzV9oouQ0Dt7MsZ1oPRNNKjctFjXKfS1l9f9J/PIiZazxd3OIAyBTLil7T116UHiCnivJTu3LmrhnFHXaI9YF/6kls6EO7sdIeRvuBGBvwVOfEqbQpfcZToDDhztrpgRoMotRJ/li73RFyiJTzOudQYUomO8FhnV6Raws68pDEX2FbyZj0Rzvg4F+h7SgJ9A00d45szKs60efzjjFCGzKdILPltimX6Z3PIfhnMeYcsROZ9P1ietNjIa20eJz7jvAFGQM6mIsnq2CgwBYUhvS8GOWWNJ6OfgG+1eDonVs9cm8grQ9ohZeT27VLDPFYQ5FCHpoQZioyNoEkIM19x8S8JfaGYX74oyRy/baurbrJSia6OasmLlEsC1oLolei+HkV9RD0kugZN+bW1a5E+VrmWIMcnM/7XOophIzfAar6+QJwyuFXWwhoZZd/XQ5zxs3GlCnbs/gCV4DuWjd8KIAAAAABJRU5ErkJggg==">
+<h3 class="name">Name</h3>
+<p class="title">Description</p>
+<button>UPLOAD IMAGE</button>
+</div>
+</div>
+<div class="col-md-5 col-lg-8 item">
+<div class="mainContainer">
+<h3>Enter your credentials.</h3>
+<label for="username">Your username</label>
+<input type="text" placeholder="Enter Username" name="username" required>
+<br><br>
+<label for="pswrd">Your password</label>
+<input type="password" placeholder="Enter Password" name="pswrd"
+required></div>
+<button type="submit">Login</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
