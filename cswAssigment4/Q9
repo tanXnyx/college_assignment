@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+<title>Carousel Examples</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+</script>
+<style>
+.carousel-inner img{
+width: 100%;
+height: 100%;
+}
+</style>
+</head>
+<body>
+<div id="demo" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+<li data-target="#demo" data-slide-to="0" class="active"></li>
+<li data-target="#demo" data-slide-to="1"></li>
+<li data-target="#demo" data-slide-to="2"></li>
+<li data-target="#demo" data-slide-to="3"></li>
+</ul>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img
+src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fcute-zebra-cartoon-animal-character_1308-154268.jpg&tbnid=eSCvt_hXCSUm5M&vet=12ahUKEwirr5T9rcSDAxVBhmMGHVDxCH8QMygJegUIARCGAQ..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fcartoon-zebra&docid=G-OSeZjbUZJB0M&w=487&h=626&q=ZEBRA&ved=2ahUKEwirr5T9rcSDAxVBhmMGHVDxCH8QMygJegUIARCGAQ" alt="Zebra Image"
+width="1100" height="500">
+<div class="carousel-caption"><h1>ZEBRA</h1></div>
+</div>
+<div class="carousel-item">
+<img src="https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="LION IMAGE"
+width="1000" height="450">
+<div class="carousel-caption"><h1>LION</h1></div>
+</div>
+<div class="carousel-item">
+<img src="https://c4.wallpaperflare.com/wallpaper/678/900/901/animal-imagesbaby-animals-cool-pictures-cute-animals-wallpaper-preview.jpg" alt="PANDA IMAGE"
+width="1000" height="450">
+<div class="carousel-caption"><h1>PANDA</h1></div>
+</div>
+<div class="carousel-item">
+<img src="https://cdn.pixabay.com/photo/2016/05/02/13/17/deer-1367217_640.jpg"
+alt="DEER IMAGE" width="1000" height="450">
+<div class="carousel-caption"><h1>DEER</h1></div>
+</div>
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+</body>
+</html>
