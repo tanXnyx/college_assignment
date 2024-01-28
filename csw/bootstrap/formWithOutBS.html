@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<title>Stacked Forms</title>
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css
+   /bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+   </script>
+			<script	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.
+   js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+   </script>
+ <style>
+ input[type=text], select {
+ width: 100%;
+ padding: 10px 16px;
+ margin: 6px 0;
+ display: inline-block;
+ border: 3px solid blue;
+ border-radius: 5px;
+ box-sizing: border-box;
+ }
+input[type=password], select {
+ width: 100%;
+ padding: 10px 16px;
+ margin: 6px 0;
+ display: inline-block;
+ border: 3px solid blue;
+ border-radius: 5px;
+ box-sizing: border-box;
+ }
+ input[type=submit] {
+ width: 100%;
+ background-color: orange;
+ color: brown;
+ padding: 12px 16px;
+ margin: 6px 0;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ }
+ input[type=submit]:hover {
+ background-color: green;
+ }
+ div {
+ border-radius: 3px;
+ background-color: yellow;
+ padding: 15px;
+ }
+ </style>
+<body>
+	
+ <div>
+	 	<form	action="/action_page.php">
+ <label	for="emp">name</label><input	type="text"	id="emp"
+	 	 	 	 name="employee	name"	placeholder="name."><br>
+	 	 	 <label	for="emp">email</label><input	type="text"	id="emp"
+	 	 	 	 name="employee	name"	placeholder="email."><br>
+<label
+	 	 	 	 for="dept">login</label><input	type="text"	id="dept"
+	 	 	 	 name="department"	placeholder="Your	department.."><br>
+<label
+	 	 	 	 for="city">password</label><input	type="password"	id="emp"
+	 	 	 	 name="employee	name"	placeholder="passwoard."><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">i agree with term</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">right info</label><br>
+ <p>Please select your age:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">18+</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2"><18</label><br>  
+  <br>
+	 	 	 </select><input	type="submit"	value="Confirm">
+ </form>
+ </div>
+ <nav aria-label="Page navigation example">
+	<ul class="pagination">
+	  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+	  <li class="page-item active">
+		<a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+	  </li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/form.html">2</a></li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/loading.html">3</a></li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/loadButton.html">4</a></li>
+	  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+	</ul>
+  </nav>
+</body>
+</html> 
