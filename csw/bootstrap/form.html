@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Stacked Forms</title>
+ <meta charset="utf-8">
+ <meta name="viewport"content="width=device-width, initial-scale=1">
+ <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css
+/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+	 	<script	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.
+js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+</script>
+<style type="text/css">
+	.bottomright {
+	  position: fixed;
+	  right: 0px; bottom: 0px;
+	  width: 200px;
+	  height:40px;
+	  background-color:lightblue;
+	  padding: 5px;
+	}
+	.large {
+	  width: 2000px; height: 500px;
+	  background-color: lightgray;
+	}
+	</style>
+ </head>
+<body>
+<div class="container">
+
+ <form action="/action_page.php">
+<div class="form-group">
+ <label for="email">name</label>
+ <input type="text"class="form-control"id="name"placeholder="name"name="name">
+ <div class="form-group">
+ <label for="email">Email Address</label>
+ <input type="email"class="form-control"id="email"placeholder="Type Your
+Email Address"name="email">
+ </div>
+ <div class="form-group">
+ <label for="pwd">Password</label>
+ <input type="password"class="form-control"id="pw"placeholder="Type Your
+Password"name="password">
+ </div>
+ <div class="form-group form-check">
+ <label class="form-check-label">
+ <input class="form-check-input"type="checkbox"name="Logged in">agree to term
+ </label>
+ </div>
+<div class="form-group form-check">
+ <label class="form-check-label">
+ <input class="form-check-input"type="checkbox"name="Logged in"> info right
+ </label>
+ </div>
+<div class="form-group form-check">
+ <label class="form-check-label">
+ <input class="form-check-input"type="radio"name="age"> 18+
+ </label>
+ </div>
+<div class="form-group form-check">
+ <label class="form-check-label">
+ <input class="form-check-input"type="radio"name="age"> <18
+ </label>
+ </div>
+
+ <button type="submit"class="btn btn-primary">sumit</button>
+ </form>
+</div>
+<div class="bottomright">
+<nav aria-label="Page navigation example" id="I">
+	<ul class="pagination">
+	  <li class="page-item">
+		<a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/formWithOutBS.html" aria-label="Previous">
+		  <span aria-hidden="true">&laquo;</span>
+		  <span class="sr-only">Previous</span>
+		</a>
+	  </li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/formWithOutBS.html">1</a></li>
+	  <li class="page-item active">
+		<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+	  </li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/loading.html">3</a></li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/loadButton.html">4</a></li>
+	  <li class="page-item">
+		<a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/loading.html" aria-label="Next">
+		  <span aria-hidden="true">&raquo;</span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </li>
+	</ul>
+  </nav>
+</div>
+</body>
+</html> 
