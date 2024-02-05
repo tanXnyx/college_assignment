@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Animated Progress Bar</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css
+/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+	 	<script	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.
+js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+</script>
+ <script>
+var i=0;
+function progressBar(){
+if(i<100){
+i=i+1;
+$(".progress-bar").css("width",i+"%").text(i+"%");
+}
+setTimeout("progressBar()",100);
+}
+$(document).ready(function(){
+$(".button1").click(function(){
+$(".progress").show();
+progressBar();
+});
+});
+</script>
+
+<style>
+.progress{
+display:none;
+}
+</style>
+<style type="text/css">
+	.bottomright {
+	  position: fixed;
+	  right: 0px; bottom: 0px;
+	  width: 200px;
+	  height:40px;
+	  background-color:lightblue;
+	  padding: 5px;
+	}
+	.large {
+	  width: 2000px; height: 500px;
+	  background-color: lightgray;
+	}
+	</style>
+ </head>
+<body>
+<div class="container">
+ <h2>Lively Progress Bar</h2>
+ <div class="progress">
+ <div class="progress-bar progress-bar-striped progress-bar-animated"
+></div>
+ </div>
+
+<button class="button1">go</button>
+</div>
+<div class="bottomright">
+<nav aria-label="Page navigation example">
+	<ul class="pagination">
+	  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/formWithOutBS.html">1</a></li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/form.html">2</a></li>
+	  <li class="page-item"><a class="page-link" href="/bootstrep/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/loading.html">3</a></li>
+	  <li class="page-item active">
+		<a class="page-link" href="#">4<span class="sr-only">(current)</span></a>
+	  </li>
+	  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+	
+	</ul>
+  </nav>
+</div>
+</body>
+</html>
