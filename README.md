@@ -1,4 +1,4 @@
 #  college assignment
-of csw(wed degine, java)
+of csw(wed degine)
 and
 java
