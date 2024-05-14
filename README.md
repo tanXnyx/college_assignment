@@ -1,4 +1,4 @@
-#  college assignment
+#  college assignments
 of csw( wed degine )
 and
 java
