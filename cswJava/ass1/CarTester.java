@@ -4,7 +4,7 @@ class Car {
     private String model;
 
     // Parameterized constructor
-    public Car(String make, String model) {
+    public Car(String make, String model) { 
         this.make = make;
         this.model = model;
     }
