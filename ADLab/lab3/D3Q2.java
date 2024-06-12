@@ -9,7 +9,7 @@ public class D3Q2 {
                     if (arr[MinPos ] > arr[j]){
                         MinPos = j;
                     }                    
-                }
+                }  
             int temp = arr[MinPos];
             arr [MinPos]  = arr[i];
             arr[i] = temp;
